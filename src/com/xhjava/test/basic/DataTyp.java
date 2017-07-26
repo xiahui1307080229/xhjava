@@ -12,6 +12,8 @@ public class DataTyp {
 		
 		x = (int)y;
 		System.out.println("x= " + x);
+		x = y;
+		System.out.println("x= " + x);
 		x = 124;
 		y = (char)x;
 		System.out.println("y= " + y);
