@@ -1,7 +1,5 @@
 package com.xhjava.test.basic;
 
-import sun.net.www.content.image.gif;
-
 public class DataTyp {
 
 	public static void main(String[] args) {
