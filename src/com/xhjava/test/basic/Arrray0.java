@@ -14,6 +14,9 @@ public class Arrray0 {
 		{
 			System.out.println("score["+x+"] =" + score[x]);
 		}
+		for(int element : score){
+			System.out.println("show: " + element);
+		}
 	}
 
 }

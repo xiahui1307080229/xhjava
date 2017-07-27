@@ -15,7 +15,6 @@ public class UseVolatile {
 	        active = false;
 	    }
 
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		UseVolatile UV = new UseVolatile();
@@ -26,3 +25,9 @@ public class UseVolatile {
 	}
 
 }
+
+
+
+
+
+

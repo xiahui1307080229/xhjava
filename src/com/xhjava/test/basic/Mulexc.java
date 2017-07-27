@@ -1,7 +1,5 @@
 package com.xhjava.test.basic;
 
-import javax.swing.text.StyledEditorKit.ForegroundAction;
-
 public class Mulexc {
 	int x;
 	int y;
