@@ -11,7 +11,7 @@ public class MyStack {
    }
 
    static void showpop(Stack st) {
-      System.out.print("pop -> ");
+      System.out.print("pop : ");
       Integer a = (Integer) st.pop();
       System.out.println(a);
       System.out.println("stack: " + st);
