@@ -17,6 +17,14 @@ public class IoCol {
 		       c = (char) br.read();
 		       System.out.print(c);
 		    } while(c != 'q');
+		    
+		    String str;
+		    System.out.println("Enter lines of text.");
+		    System.out.println("Enter 'end' to quit.");
+		    do {
+		       str = br.readLine();
+		       System.out.println(str);
+		    } while(!str.equals("end"));
 
 	}
 
