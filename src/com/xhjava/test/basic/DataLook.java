@@ -8,17 +8,17 @@ public class DataLook {
 		int y = 8;
 		if(x==y)
 		{
-			System.out.println("ÕâÊÇ²»¶ÔµÄ£¡");
+			System.out.println("ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ÔµÄ£ï¿½");
 		}
 		if(true)
 		{
-			System.out.println("Õâ»õ²»ÊÇ¼ÙµÄ£¡");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¼ÙµÄ£ï¿½");
 		}
 		if(2016 % 2 == 0)
 		{
-			System.out.println("ºÃÄêÍ·");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½Í·");
 		}
-		
+
 	}
 
 }
