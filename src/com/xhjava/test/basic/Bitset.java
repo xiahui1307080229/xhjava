@@ -2,6 +2,7 @@ package com.xhjava.test.basic;
 
 import java.util.BitSet;
 
+
 public class Bitset {
 	
 	public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class Bitset {
 		BitSet arr1 = new BitSet(12);
 		BitSet arr2 = new BitSet(12);
 		
-		for(int i = 0; i < 12; i++){
+		for (int i = 0; i < 12; i++) {
 			if (i % 2 == 0) {
 				arr1.set(i);
 			}
@@ -18,24 +19,24 @@ public class Bitset {
 			}
 		}
 		
-		System.out.println("ÄÜ¹»±»2Õû³ýµÄÊý£º " + arr1);
-		System.out.println("²»ÄÜ¹»±»3Õû³ýµÄÊý£º " + arr2);
-		
-		//ÓëËã·¨ÃèÊö
+		System.out.println("ï¿½Ü¹ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ " + arr1);
+		System.out.println("ï¿½ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ " + arr2);
+
+		//ï¿½ï¿½ï¿½ã·¨ï¿½ï¿½ï¿½ï¿½
 		arr1.and(arr2);
-		System.out.println("arr1Óëarr2Ö®ºóµÄÊý·ÅÔÚarr1£º  " + arr1);
+		System.out.println("arr1ï¿½ï¿½arr2Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½arr1ï¿½ï¿½  " + arr1);
 		
-		//»òËã·¨ÃèÊö
+		//ï¿½ï¿½ï¿½ã·¨ï¿½ï¿½ï¿½ï¿½
 		arr1.or(arr2);
-		System.out.println("arr1Óëarr2Ö®ºóµÄÊý·ÅÔÚarr1£º  " + arr1);
+		System.out.println("arr1ï¿½ï¿½arr2Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½arr1ï¿½ï¿½  " + arr1);
 		
-		//·ÇËã·¨ÃèÊö
+		//ï¿½ï¿½ï¿½ã·¨ï¿½ï¿½ï¿½ï¿½
 		arr1.xor(arr2);
-		System.out.println("arr1·Çarr2Ö®ºóµÄÊý·ÅÔÚarr1£º  " + arr1);
+		System.out.println("arr1ï¿½ï¿½arr2Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½arr1ï¿½ï¿½  " + arr1);
 		
-		//´óÐ¡ÉèÖÃ
-		System.out.println("ÏÔÊ¾´óÐ¡arr1£º " + arr1.size());
-		System.out.println("ÏÔÊ¾´óÐ¡arr2£º " + arr2.size());
+		//ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½
+		System.out.println("ï¿½ï¿½Ê¾ï¿½ï¿½Ð¡arr1ï¿½ï¿½ " + arr1.size());
+		System.out.println("ï¿½ï¿½Ê¾ï¿½ï¿½Ð¡arr2ï¿½ï¿½ " + arr2.size());
 	}
 
 }
